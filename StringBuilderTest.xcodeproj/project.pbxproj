@@ -14,11 +14,11 @@
 		254B2FDC1866A3880071CE98 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 254B2FDB1866A3880071CE98 /* main.m */; };
 		254B2FE01866A3880071CE98 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 254B2FDF1866A3880071CE98 /* AppDelegate.m */; };
 		254B2FE21866A3880071CE98 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 254B2FE11866A3880071CE98 /* Images.xcassets */; };
-		254B2FFF1866A4160071CE98 /* JSKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 254B2FFE1866A4160071CE98 /* JSKit.framework */; };
 		254B300B1866A4760071CE98 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 254B30031866A4760071CE98 /* Localizable.strings */; };
 		254B300C1866A4760071CE98 /* NSString+StringBuilderTestLocalizationReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 254B300A1866A4760071CE98 /* NSString+StringBuilderTestLocalizationReader.m */; };
 		254B30121866A5520071CE98 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 254B30111866A5520071CE98 /* ViewController.m */; };
-		254B30151866A5770071CE98 /* View.m in Sources */ = {isa = PBXBuildFile; fileRef = 254B30141866A5770071CE98 /* View.m */; };
+		254B301F186805910071CE98 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 254B301E186805910071CE98 /* ViewController.xib */; };
+		254B303318680DE70071CE98 /* JSKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 254B303218680DE70071CE98 /* JSKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,7 +34,6 @@
 		254B2FDF1866A3880071CE98 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		254B2FE11866A3880071CE98 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		254B2FE81866A3880071CE98 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		254B2FFE1866A4160071CE98 /* JSKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JSKit.framework; path = libs/JSKit.framework; sourceTree = "<group>"; };
 		254B30041866A4760071CE98 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		254B30081866A4760071CE98 /* en */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = en; path = en.lproj/strings.h; sourceTree = "<group>"; };
 		254B30091866A4760071CE98 /* NSString+StringBuilderTestLocalizationReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+StringBuilderTestLocalizationReader.h"; sourceTree = "<group>"; };
@@ -44,8 +43,8 @@
 		254B300F1866A5070071CE98 /* es */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = es; path = es.lproj/strings.h; sourceTree = "<group>"; };
 		254B30101866A5520071CE98 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		254B30111866A5520071CE98 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		254B30131866A5770071CE98 /* View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View.h; sourceTree = "<group>"; };
-		254B30141866A5770071CE98 /* View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = View.m; sourceTree = "<group>"; };
+		254B301E186805910071CE98 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		254B303218680DE70071CE98 /* JSKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JSKit.framework; path = libs/JSKit.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				254B2FFF1866A4160071CE98 /* JSKit.framework in Frameworks */,
+				254B303318680DE70071CE98 /* JSKit.framework in Frameworks */,
 				254B2FD21866A3880071CE98 /* CoreGraphics.framework in Frameworks */,
 				254B2FD41866A3880071CE98 /* UIKit.framework in Frameworks */,
 				254B2FD01866A3880071CE98 /* Foundation.framework in Frameworks */,
@@ -84,7 +83,7 @@
 		254B2FCE1866A3880071CE98 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				254B2FFE1866A4160071CE98 /* JSKit.framework */,
+				254B303218680DE70071CE98 /* JSKit.framework */,
 				254B2FCF1866A3880071CE98 /* Foundation.framework */,
 				254B2FD11866A3880071CE98 /* CoreGraphics.framework */,
 				254B2FD31866A3880071CE98 /* UIKit.framework */,
@@ -102,8 +101,7 @@
 				254B2FD61866A3880071CE98 /* Supporting Files */,
 				254B30101866A5520071CE98 /* ViewController.h */,
 				254B30111866A5520071CE98 /* ViewController.m */,
-				254B30131866A5770071CE98 /* View.h */,
-				254B30141866A5770071CE98 /* View.m */,
+				254B301E186805910071CE98 /* ViewController.xib */,
 			);
 			path = StringBuilderTest;
 			sourceTree = "<group>";
@@ -207,6 +205,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				254B301F186805910071CE98 /* ViewController.xib in Resources */,
 				254B2FDA1866A3880071CE98 /* InfoPlist.strings in Resources */,
 				254B300B1866A4760071CE98 /* Localizable.strings in Resources */,
 				254B2FE21866A3880071CE98 /* Images.xcassets in Resources */,
@@ -236,7 +235,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				254B30151866A5770071CE98 /* View.m in Sources */,
 				254B2FE01866A3880071CE98 /* AppDelegate.m in Sources */,
 				254B300C1866A4760071CE98 /* NSString+StringBuilderTestLocalizationReader.m in Sources */,
 				254B30121866A5520071CE98 /* ViewController.m in Sources */,
@@ -359,6 +357,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/mallarke/Documents/ios/stringBuilder/libs,
+					/Users/mallarke/Documents/ios/stringBuilder,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "StringBuilderTest/StringBuilderTest-Prefix.pch";
@@ -376,6 +375,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/mallarke/Documents/ios/stringBuilder/libs,
+					/Users/mallarke/Documents/ios/stringBuilder,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "StringBuilderTest/StringBuilderTest-Prefix.pch";

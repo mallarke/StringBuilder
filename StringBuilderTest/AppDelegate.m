@@ -14,15 +14,12 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    [super application:application didFinishLaunchingWithOptions:launchOptions];
     
     ViewController *vc = [ViewController new];
     self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:vc];
-    
-    // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
-    [self.window makeKeyAndVisible];
-    return YES;
+
+    return true;
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application

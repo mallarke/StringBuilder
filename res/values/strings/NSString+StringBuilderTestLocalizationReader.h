@@ -4,7 +4,11 @@
 
 @interface NSString (StringBuilderTestLocalizationReader)
 
++ (NSString *)buttonTest;
 + (NSString *)defaultText;
++ (NSString *)labelTest;
++ (NSString *)textFieldTest;
++ (NSString *)textViewTest;
 + (NSString *)viewControllerTitle;
 
 @end

@@ -7,13 +7,12 @@
 //
 
 #import "ViewController.h"
-#import "View.h"
+
+#import "AppDelegate.h"
 
 #pragma mark - ViewController extension -
 
 @interface ViewController()
-
-@property (nonatomic, strong) View *view;
 
 @end
 
@@ -40,11 +39,6 @@
 }
 
 #pragma mark - View life cycle methods -
-
-- (void)loadView
-{
-    self.view = [View new];
-}
 
 #pragma mark - Public methods -
 
